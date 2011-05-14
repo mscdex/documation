@@ -1,13 +1,9 @@
 Compound files
-- DIF sector parsing
 - dictionary property parsing (property id 0)
 - sanity checks with sector counts, etc
 - VT_VECTOR property type
+- VT_CF property type (especially for PID_THUMBNAIL)
 - stream property codepage recognition (assumes utf8 currently)
-- it seems the value for PID_EDITTIME is that of PID_LASTSAVE_DTM if
-  PID_EDITTIME has some weird value (e.g. negative value, etc)? Or
-  perhaps PID_EDITTIME is instead "total edit time" as suggested by
-  the Apache POI HPSF documentation
 - write and modify capabilities
 
 Word documents
